@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">RecycleView</string>
+    <string-array name="Beverage_Names">
+        <item>Brownies</item>
+        <item>Cupcake</item>
+        <item>Cookies</item>
+        <item>Cake</item>
+        <item>Ice Cream</item>
+        <item>Pudding</item>
+        <item>Donut</item>
+        <item>Salad</item>
+        <item>Muffin</item>
+        <item>Pancake</item>
+    </string-array>
+    <string-array name="description">
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+    </string-array>
+</resources>

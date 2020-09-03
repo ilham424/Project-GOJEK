@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginForm">
+    <TextView
+        android:id="@+id/TextView_Masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MASUK"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:id="@+id/EditText_Email2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextView_Masuk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="Email"
+        />
+    <EditText
+        android:id="@+id/EditText_Password2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EditText_Email2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Password"
+        />
+    <CheckBox
+        android:id="@+id/CheckBox_remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/EditText_Password2"
+        android:text="Remember my information"
+        android:layout_alignStart="@id/EditText_Password2"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/Button_Submit"
+        android:layout_width="214dp"
+        android:layout_height="36dp"
+        android:layout_below="@id/CheckBox_remember"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/Ungu"
+        android:text="Submit"
+        android:textColor="@color/Putih" />
+</RelativeLayout>

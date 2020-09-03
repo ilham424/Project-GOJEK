@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/icon_reset"
+        android:icon="@drawable/calculator"
+        android:title="Reset"
+        />
+    <item
+        android:id="@+id/icon_Area"
+        android:icon="@drawable/square"
+        android:title="Area"
+        />
+    <item
+        android:id="@+id/icon_Volume"
+        android:icon="@drawable/block"
+        android:title="Volume"
+        />
+</menu>

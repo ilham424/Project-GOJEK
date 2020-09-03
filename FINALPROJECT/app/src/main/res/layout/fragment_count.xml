@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CountFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/TextView_Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:textSize="100sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        />
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/TextView_Number"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Button_Min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="35sp"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:id="@+id/Button_Reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:textSize="35sp"
+            />
+        <Button
+            android:id="@+id/Button_Plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="+"
+            android:textSize="35sp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
